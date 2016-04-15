@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request>
+<PK_Type>
+<Name>SEND_ALARM</Name>
+<Code>501</Code>
+</PK_Type>
+<Info>
+<Values>
+<TAlarmList>
+</TAlarmList>
+</Values>
+</Info>
+</Request>

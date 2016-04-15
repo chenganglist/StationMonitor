@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF8"?>
+<Request>
+	<PK_Type>
+		<Name>LOGOUT</Name>
+		<Code>103</Code>
+	</PK_Type>
+	<Info/>
+</Request>

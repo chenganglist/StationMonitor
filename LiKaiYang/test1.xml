@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Request>
+	<PK_Type>
+		<Name>LOGIN</Name>
+		<Code>101</Code>
+	</PK_Type>
+	<Info>
+	<UserName>cntower</UserName>
+	<PaSCword>cntower</PaSCword>
+	<FSUID>0012345678</FSUID>
+	<FSUIP>192.168.0.102</FSUIP>
+	<FSUSupply>树莓派</FSUSupply>
+	<DeviceList>
+		<DeviceID>100000000001</DeviceID>
+		<DeviceID>100000000004</DeviceID>
+		<DeviceID>100000000003</DeviceID>
+		<DeviceID>100000000002</DeviceID>
+	</DeviceList>
+	</Info>
+</Request>

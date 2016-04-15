@@ -1,0 +1,1 @@
+sudo lsof -R /dev/ttyACM0 | awk '{print $2,$3}' | while read pid_info ppid_info; do   [ ! -z "${pid_info##*[!0-9]*}" ]  &&  echo "Killing old dial process... pid=${pid_info}, ppid=${ppid_info}" && sudo kill -SIGKILL $pid_info && sudo kill -SIGKILL $ppid_info; done
