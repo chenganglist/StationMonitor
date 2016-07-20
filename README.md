@@ -32,6 +32,7 @@
 	Upload_Alarm_4.sh  --- 定时生成告警信息到Send_Alarm_4.xml，并读取告警信息，通过Send_Alarm_Client.py脚本调用WebService上传告警信息 
 	Upload_Alarm_5.sh  --- 定时生成告警信息到Send_Alarm_5.xml，并读取告警信息，通过Send_Alarm_Client.py脚本调用WebService上传告警信息   
     Send_Alarm_Client.py  ----  调用WebService上传告警信息 
+    
 
 ###二、基站WebService构建--PHPService目录
 ####1、services目录下文件说明
